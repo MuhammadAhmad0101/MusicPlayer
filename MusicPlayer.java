@@ -71,6 +71,7 @@ public class MusicPlayer {
         public void start() {
                 boolean keepRunning = true;
                 while (keepRunning) {
+                        System.out.println("-----Main Menu------");
                         System.out.println("1. Enter a Song ");
                         System.out.println("2. Run a Music Player ");
                         System.out.println("3. Exit ");
