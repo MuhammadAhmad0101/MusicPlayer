@@ -35,7 +35,7 @@ public class MusicPlayer {
                         Clip clip = AudioSystem.getClip();
                         clip.open(audioStream);
                         clip.start();
-                        System.out.println("Playing...." + song.getTitle());
+                        System.out.println("Now Playing...." + song.getTitle());
                         System.out.println("Please 'Enter' if you want to stop Music Playing ");
                         Scanner input = new Scanner(System.in);
                         input.nextLine();
@@ -95,10 +95,4 @@ public class MusicPlayer {
                 }
 
         }
-
-        public static void main(String[] args) {
-                MusicPlayer player = new MusicPlayer();
-                player.start();
-        }
-
 }
